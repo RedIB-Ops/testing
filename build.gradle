@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.vaultkeep.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.vaultkeep.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 4
+        versionName '0.4.0'
+    }
+}
